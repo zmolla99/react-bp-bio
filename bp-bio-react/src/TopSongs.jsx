@@ -32,9 +32,9 @@ const TopSongs = () => {
         <>
             <h1>Top songs:</h1>
             <ol>
-                <li><h3>How You Like That</h3> <img className='cover' src='./src/assets/song1.png' alt='song 1' /> {message1} <button onClick={like1}>Like</button> </li>
-                <li><h3>Pink Venom</h3> <img className='cover' src='./src/assets/song2.jpg' alt='song 1' /> {message2}  <button onClick={like2}>Like</button> </li>
-                <li><h3>Shut Down</h3> <img className='cover' src='./src/assets/song3.jpg' alt='song 1' /> {message3}  <button onClick={like3}>Like</button> </li>
+                <li><h3>How You Like That</h3> <img className='cover' src='./src/assets/song1.png' alt='song 1' /> <br /> {message1} <br /> <button onClick={like1}>Like</button> </li>
+                <li><h3>Pink Venom</h3> <img className='cover' src='./src/assets/song2.jpg' alt='song 1' /> <br /> {message2} <br /> <button onClick={like2}>Like</button> </li>
+                <li><h3>Shut Down</h3> <img className='cover' src='./src/assets/song3.jpg' alt='song 1' /> <br /> {message3} <br />  <button onClick={like3}>Like</button> </li>
             </ol>
         </>
     )

@@ -4,6 +4,8 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(212, 88, 109), black);
+    color: white;
 }
 
 
@@ -15,4 +17,9 @@ body {
     font-size: 16px;
     text-align: center;
 
+}
+
+.cover {
+    width: 200px;
+    height: 200px;
 }

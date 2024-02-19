@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-    <body>
-      <Bio />
-      <TopSongs />
+      <body>
+        <Bio />
+        <TopSongs />
       </body>
     </>
   )
