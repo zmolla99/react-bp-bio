@@ -21,7 +21,7 @@ const Comments = () => {
         <>
             <h2>Top Comment: {comment}</h2>
             <form className="form" onSubmit={handleSubmit}>
-                <input onChange={handleInput} type="text" name='commentInput' />
+                <input className='text-box' onChange={handleInput} type="text" name='commentInput' />
                 <button type="submit">Post</button>
             </form>
         </>
