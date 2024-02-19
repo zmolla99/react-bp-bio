@@ -1,10 +1,13 @@
-import './App.css'
+import './App.css';
+import Bio from './Bio';
+import TopSongs from './TopSongs.jsx';
 
 function App() {
 
   return (
     <>
-      <h1>Hello world</h1>
+      <Bio />
+      <TopSongs />
     </>
   )
 }
