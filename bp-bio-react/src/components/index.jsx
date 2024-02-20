@@ -1,0 +1,6 @@
+export { default as TopSongsItem } from './TopSongsItem'
+export { default as TopSongsList } from './TopSongsList'
+export { default as Bio } from './Bio'
+export { default as CommentsForm } from './CommentsForm'
+export { default as CommentsItem } from './CommentsItem'
+export { default as CommentsList } from './CommentsList'
